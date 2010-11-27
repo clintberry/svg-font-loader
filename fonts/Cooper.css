@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'Cooper';
+	src: url('font-files/cooperblackstd-webfont.eot');
+	src: local('☺'), url('font-files/cooperblackstd-webfont.woff') format('woff'), url('font-files/cooperblackstd-webfont.ttf') format('truetype'), url('font-files/cooperblackstd-webfont.svgz#webfont37hojTTp') format('svg'), url('font-files/cooperblackstd-webfont.svg#webfont37hojTTp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cooper';
+	src: url('font-files/cooperblackstd-italic-webfont.eot');
+	src: local('☺'), url('font-files/cooperblackstd-italic-webfont.woff') format('woff'), url('font-files/cooperblackstd-italic-webfont.ttf') format('truetype'), url('font-files/cooperblackstd-italic-webfont.svgz#webfontnn7N727r') format('svg'), url('font-files/cooperblackstd-italic-webfont.svg#webfontnn7N727r') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}

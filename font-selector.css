@@ -1,0 +1,13 @@
+div#font-selector { 
+    width:500px; 
+    height:150px; 
+    overflow:auto;  
+    margin:0 auto; 
+    position:absolute; 
+    top:27px;
+    right:0;
+    border:1px solid black; 
+    padding:10px; 
+    display:none; 
+    background-color:white;
+}

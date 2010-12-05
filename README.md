@@ -72,5 +72,4 @@ More Information
 * See my [blog post](http://clintberry.com/2010/07/custom-fonts-with-google-webfont-loader/) on this project for more details.
 
     
-* Read about svg-edit, a javascript based image editor (It's amazing, trust me):
-http://code.google.com/p/svg-edit/
+* Read about [svg-edit](http://code.google.com/p/svg-edit/), a javascript based image editor (It's amazing-- trust me).

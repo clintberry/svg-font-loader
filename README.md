@@ -46,7 +46,7 @@ There are three steps to adding custom fonts to the font-loader
    font files with the CSS files included. [http://www.fontsquirrel.com/fontface/generator](http://www.fontsquirrel.com/fontface/generator)
    
 ### 2. Create a font preview image
-To make is so that svg-edit doesn't have to download every font at load time (some fonts
+To make it so that svg-edit doesn't have to download every font at load time (some fonts
 are 100k+) it uses preview images in the drop down font selector. To take advantage of 
 this performance boost you need to create an image showing what the font looks like for 
 the selector. Create this image in your favorite editor and upload it to /fonts/font-images

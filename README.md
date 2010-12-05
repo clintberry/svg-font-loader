@@ -1,22 +1,22 @@
-svg-font-loader
-by Clint Berry (http://clintberry.com)
-----------------------------------------------------------------------------
+[svg-font-loader](http://clintberry.com/2010/07/custom-fonts-with-google-webfont-loader/) - Custom Font Loader for [svg-edit](http://code.google.com/p/svg-edit/)
+================================
+
+About
+-----
 
 This is a custom font loader written for the amazing svg-edit project.
 It allows you to use completely custom fonts by loading them with the 
 Google Font Loader. 
 
-For more details, see:
+For more details, see the [original blog post](http://clintberry.com/2010/07/custom-fonts-with-google-webfont-loader/)
 
- http://clintberry.com/2010/07/custom-fonts-with-google-webfont-loader/
-
-Installation:
-   - Create a folder called "font-selector" in the root of your 
-     svg-edit installation.
+Installation
+------------
+* Create a folder called "font-selector" in the root of your svg-edit installation.
+  
+* Copy all the files from this github into that folder
    
-   - Copy all the files from this github into that folder
-   
-   - Add the following JavaScript snippet into svg-editor.html after all
+* Add the following JavaScript snippet into svg-editor.html after all
      other JavaScript files in the <head> section:
  
      <!-- Font Loader Start -->
@@ -36,7 +36,8 @@ Installation:
 
     That's it! Now you can add custom generated fonts!
 
-Adding Fonts:
+Adding Fonts
+------------
 
     There are three steps to adding custom fonts to the font-loader
     

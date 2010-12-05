@@ -17,7 +17,7 @@ Installation
 * Copy all the files from this github into that folder
    
 * Add the following JavaScript snippet into svg-editor.html after all
-     other JavaScript files in the <head> section:
+     other JavaScript files in the head section:
  
      <!-- Font Loader Start -->
         <link rel="stylesheet" href="font-selector/font-selector.css" type="text/css"/>
@@ -39,38 +39,38 @@ Installation
 Adding Fonts
 ------------
 
-    There are three steps to adding custom fonts to the font-loader
-    
-    1. Generate the font files and CSS
-       Font Squirrel has a very neat tool for creating browser compatible
-       font files with the CSS files included. http://www.fontsquirrel.com/fontface/generator
-       
-    2. Create a font preview image
-       To make is so that svg-edit doesn't have to download every font at load time (some fonts
-       are 100k+) it uses preview images in the drop down font selector. To take advantage of 
-       this performance boost you need to create an image showing what the font looks like for 
-       the selector. Create this image in your favorite editor and upload it to /fonts/font-images
-       
-    3. Upload and configure
-       Upload the CSS for your new font to /fonts and upload all font files to /fonts/font-files.
-       Edit your font CSS file so that all the URLs are pointing to the font-files directory. 
-       Edit font-selector.js and add your font name with the corresponding font css file and preview 
-       image file to the Smm.fonts variable. Follow the examples provided.
-       
-    Now you have added a completely custom font to your svg-edit!
-    
-    
-    
-License:
+There are three steps to adding custom fonts to the font-loader
 
-    This code is released under the Apache License 2.0, the same license for svg-edit. 
-    http://www.apache.org/licenses/LICENSE-2.0
+1. ### Generate the font files and CSS
+   Font Squirrel has a very neat tool for creating browser compatible
+   font files with the CSS files included. [http://www.fontsquirrel.com/fontface/generator](http://www.fontsquirrel.com/fontface/generator)
+   
+2. ### Create a font preview image
+To make is so that svg-edit doesn't have to download every font at load time (some fonts
+are 100k+) it uses preview images in the drop down font selector. To take advantage of 
+this performance boost you need to create an image showing what the font looks like for 
+the selector. Create this image in your favorite editor and upload it to /fonts/font-images
+   
+3. ### Upload and configure
+Upload the CSS for your new font to /fonts and upload all font files to /fonts/font-files.
+Edit your font CSS file so that all the URLs are pointing to the font-files directory. 
+Edit font-selector.js and add your font name with the corresponding font css file and preview 
+image file to the Smm.fonts variable. Follow the examples provided.
+   
+Now you have added a completely custom font to your svg-edit!
+    
+License
+-------
+
+This code is released under the Apache License 2.0, the same license for svg-edit. 
+http://www.apache.org/licenses/LICENSE-2.0
     
        
-More Information:
+More Information
+----------------
 
-    See my blog post on this project for more details:
-    http://clintberry.com/2010/07/custom-fonts-with-google-webfont-loader/
+* See my [blog post](http://clintberry.com/2010/07/custom-fonts-with-google-webfont-loader/) on this project for more details.
+
     
-    Read about svg-edit, a javascript based image editor (It's amazing, trust me):
-    http://code.google.com/p/svg-edit/
+* Read about svg-edit, a javascript based image editor (It's amazing, trust me):
+http://code.google.com/p/svg-edit/

@@ -19,19 +19,19 @@ Installation
 * Add the following JavaScript snippet into svg-editor.html after all
      other JavaScript files in the head section:
  
-     <!-- Font Loader Start -->
-        <link rel="stylesheet" href="font-selector/font-selector.css" type="text/css"/>
-        <script type="text/javascript" src="http://www.google.com/jsapi"></script>
-        <script type="text/javascript">
+        <!-- Font Loader Start -->
+          <link rel="stylesheet" href="font-selector/font-selector.css" type="text/css"/>
+          <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+          <script type="text/javascript">
           google.load("webfont", "1");
-        </script>
-        <script type="text/javascript" src="font-selector/font-selector.js"></script>
-        <script>
-        $(function(){
+          </script>
+          <script type="text/javascript" src="font-selector/font-selector.js"></script>
+          <script>
+          $(function(){
             Smm.init('tool_font_family');
-        });
-        </script>
-    <!-- Font Loader End -->
+          });
+          </script>
+        <!-- Font Loader End -->
 
 
     That's it! Now you can add custom generated fonts!
